@@ -1,7 +1,7 @@
 const arr = [-5, -31, -5, -23, -56, -34, -34];
 
 let max = -Infinity;
-function findLargestNumber(){
+function findLargestNumber(arr){
     for(let i of arr){
         if(i > max){
             max = i;
