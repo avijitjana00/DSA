@@ -20,5 +20,5 @@ function bestPrice(prices){
     }return maxProfit;
 }
 
-const output = maxProfit(prices);
+const output = bestPrice(prices);
 console.log(output);
